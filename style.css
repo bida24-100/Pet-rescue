@@ -1,1 +1,77 @@
 
+/* Ensure the full height is used */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('lake luosie.jpg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: 7,7,7; /* black */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+}
+
+/* Header Title */
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Links */
+nav a {
+    color: white;
+    font-style: italic;
+    margin: 0 10px;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* File Input */
+input[type="file"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent footer background */
+    color: brown;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
